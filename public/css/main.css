@@ -47,6 +47,47 @@ html, body{
 .button-white{
   background-color: white;
 }
+
 .button-see-thru{
   opacity: 0.5;
+}
+
+.nav-container{
+  background-color: white;
+  border: 1px solid lightgrey;
+}
+
+.nav-list{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.nav-list li{
+display: inline-block;
+padding: 10px 20px;
+box-sizing: border-box;
+border-right: 1px solid lightgrey;
+margin: auto -2px;
+}
+
+.nav-list li:hover{
+  border-bottom: 5px solid green;
+}
+
+.nav-list li:first-child{
+  border-left:1px solid lightgrey;
+}
+
+.section-container{
+  border-radius: 5px;
+  display: inline-block;
+  border: 1px solid lightgrey;
+}
+
+main section:last-child{
+  text-align: center;
+  position: absolute;
+  height: 416.159px;
+  width: 312px;
+  margin-left: 5px;
 }
