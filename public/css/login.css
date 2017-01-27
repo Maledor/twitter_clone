@@ -1,0 +1,26 @@
+main input {
+  display: block;
+}
+
+header {
+  text-align: center;
+}
+
+body{
+  background-color: grey;
+}
+
+main {
+  margin: 25%;
+  background-color: white;
+  border: black hidden;
+  border-radius: 5px
+}
+button{
+  background-color: green;
+}
+
+.textbox{
+  margin: 5px;
+  margin-left: 0px;
+}
