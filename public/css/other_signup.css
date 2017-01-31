@@ -1,0 +1,101 @@
+.banner {
+  background: skyblue; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, skyblue , lightgreen); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, skyblue, lightgreen); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, skyblue, lightgreen); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, skyblue , lightgreen);
+  width: 100%;
+  height: 70px;
+  margin: 0;
+  padding: 0;
+}
+select {
+  border: none;
+  width: 125px;
+  height: 30px;
+  margin-right: 5px;
+  background-color: transparent;
+  color: #1da1f2;
+}
+input {
+  display: block;
+  margin-left: 450px;
+}
+button {
+ width: 372px;
+ font-size: 16px;
+ padding: 11px 20px;
+ color: white;
+ background-color: #1da1f2;
+ border: none;
+ position: relative;
+ left: 5px;
+ line-height: normal;
+ box-sizing: border-box;
+ border-radius: 4px;
+ margin-top: 20px;
+}
+.check-box {
+  text-align: center;
+  font-size: 14px;
+  font-family: arial;
+  color: #8899a6;
+}
+.sub-mit {
+  margin-left: 450px;
+  margin-top: 20px;
+}
+.drop-down {
+  float: right;
+  margin-right: 5px;
+  margin-left: 5px;
+  padding: 10px;
+  padding-left: 5px;
+  display: inline-block;
+}
+#name-field {
+  height: 40px;
+  width: 372px;
+  border-radius: 5px;
+  border: 1px solid #e1e8ed;
+  font-style: arial;
+  margin-top: 20px;
+}
+#phone-email {
+  background-color: rgb(250, 255, 189);
+  height: 40px;
+  width: 372px;
+  border-radius: 5px;
+  border: 1px solid #e1e8ed;
+  font-style: arial;
+  margin-top: 20px;
+}
+#password {
+  height: 40px;
+  width: 372px;
+  border-radius: 5px;
+  border: 1px solid #e1e8ed;
+  background-color: rgb(250, 255, 189);
+  color: #8899a6;
+  font-style: arial;
+  margin-top: 20px;
+}
+h1 {
+font-family: arial;
+font-weight: normal;
+margin-left: 450px;
+margin-top: 100px;
+}
+#ua {
+color: #8899a6;
+font-size: 14px;
+margin-left: 450px;
+}
+#options {
+  font-size: 14px;
+  margin-left: 450px;
+  color: #1da1f2;
+}
+#checkbox {
+  margin-top: 15px;
+}
